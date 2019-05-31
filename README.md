@@ -4,13 +4,22 @@
 - web3.js to interact with the ABI
 - ganache testsuite
 - mocha for testing
+- `Next.js` for the `React` Multipage client - https://nextjs.org/
 
 # set up
 
 - Install `Metamask` chrome extension and create a wallet
-- Since late 2018, `Metamask` introduced `privacy mode` as a default setting. To be able to `enter` in the lottery, you will need to turn off `privacy mode`
+- Since late 2018, `Metamask` introduced `privacy mode` as a default setting. To be able to make any action requiring `ether`, you will need to turn off `privacy mode` for now
+- Any other wallet works too
 
 - `npm install`
+
+# To Run
+
+- An instance of the `Smart Contract` has already been deployed on the `Rinkeby Test Network`
+- To start the app:
+  - `npm run dev`
+  - go to `http://localhost:3000`
 
 # To compile the contracts after any contract changes
 
