@@ -4,7 +4,7 @@
 - web3.js to interact with the ABI
 - ganache testsuite
 - mocha for testing
-- `Next.js` for the `React` Multipage client - https://nextjs.org/
+- `Next.js` for the `React` Multipage Server-side rendered client - https://nextjs.org/
 
 # set up
 
