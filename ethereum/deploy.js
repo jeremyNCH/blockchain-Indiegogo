@@ -2,6 +2,11 @@ const HDWalletProvider = require('truffle-hdwallet-provider');
 const Web3 = require('web3');
 const compiledFactory = require('./build/CampaignFactory.json');
 
+/*
+ * Ok to make access key a78b... public since infura does NOT store any sensitive data
+ * Infura is only a portal to access the Ethereum Network
+ */
+
 const provider = new HDWalletProvider(
   'tunnel clap ostrich pig hello zoo tray damp polar ordinary inquiry isolate',
   'https://rinkeby.infura.io/v3/a78b61935e184a04a723e1b22a617f3e'
