@@ -5,6 +5,7 @@
 - ganache testsuite
 - mocha for testing
 - `Next.js` for the `React` Multipage Server-side rendered client - https://nextjs.org/
+  - sub modules: `next-routes` for dynamic routing
 
 # set up
 
