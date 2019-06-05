@@ -13,6 +13,7 @@ class CampaignShow extends Component {
 
     // summary is an object with keys 0,1,2,3... like an array -> better to destructure and return
     return {
+      address: props.query.address,
       minimumContribution: summary[0],
       balance: summary[1],
       requestsCount: summary[2],
@@ -73,7 +74,7 @@ class CampaignShow extends Component {
         <Grid>
           <Grid.Column width={10}>{this.renderCards()}</Grid.Column>
           <Grid.Column width={6}>
-            <ContributeForm />
+            <ContributeForm address={this.props.address} />
           </Grid.Column>
         </Grid>
       </Layout>
