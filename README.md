@@ -22,10 +22,12 @@
   - `npm run dev`
   - go to `http://localhost:3000`
 
-# To compile the contracts after any contract changes
+# To compile and deploy the contracts after any contract changes
 
 - `node compile.js`
 - `compile.js` will output the 2 compiled contracts in `./build` as `JSON`
+- `node deploy.js`
+- Update the address of the newly deployed contract in `factory.js`
 
 # To test
 
